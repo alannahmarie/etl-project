@@ -28,8 +28,3 @@ CREATE TABLE oscars (
 
 SELECT * FROM oscars;
 
-SELECT oscars.award_id, oscars.movie, movies.company, movies.budget, movies.gross, movies.genre, oscars.award, oscars.year_of_award
-FROM movies
-JOIN oscars
-ON oscars.movie = movies.name;
-
